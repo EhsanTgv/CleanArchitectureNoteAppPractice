@@ -1,9 +1,9 @@
-package com.taghavi.cleanarchitecturenoteapppractice.feature_not.domain.use_case
+package com.taghavi.cleanarchitecturenoteapppractice.feature_note.domain.use_case
 
-import com.taghavi.cleanarchitecturenoteapppractice.feature_not.domain.model.Note
-import com.taghavi.cleanarchitecturenoteapppractice.feature_not.domain.repository.NoteRepository
-import com.taghavi.cleanarchitecturenoteapppractice.feature_not.domain.util.NoteOrder
-import com.taghavi.cleanarchitecturenoteapppractice.feature_not.domain.util.OrderType
+import com.taghavi.cleanarchitecturenoteapppractice.feature_note.domain.model.Note
+import com.taghavi.cleanarchitecturenoteapppractice.feature_note.domain.repository.NoteRepository
+import com.taghavi.cleanarchitecturenoteapppractice.feature_note.domain.util.NoteOrder
+import com.taghavi.cleanarchitecturenoteapppractice.feature_note.domain.util.OrderType
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 

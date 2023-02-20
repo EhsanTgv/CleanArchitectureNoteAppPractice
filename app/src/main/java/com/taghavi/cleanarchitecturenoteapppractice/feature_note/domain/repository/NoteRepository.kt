@@ -1,6 +1,6 @@
-package com.taghavi.cleanarchitecturenoteapppractice.feature_not.domain.repository
+package com.taghavi.cleanarchitecturenoteapppractice.feature_note.domain.repository
 
-import com.taghavi.cleanarchitecturenoteapppractice.feature_not.domain.model.Note
+import com.taghavi.cleanarchitecturenoteapppractice.feature_note.domain.model.Note
 import kotlinx.coroutines.flow.Flow
 
 interface NoteRepository {

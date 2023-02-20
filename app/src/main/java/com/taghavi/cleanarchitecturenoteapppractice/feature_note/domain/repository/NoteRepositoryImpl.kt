@@ -1,7 +1,7 @@
-package com.taghavi.cleanarchitecturenoteapppractice.feature_not.domain.repository
+package com.taghavi.cleanarchitecturenoteapppractice.feature_note.domain.repository
 
-import com.taghavi.cleanarchitecturenoteapppractice.feature_not.data.data_source.NoteDao
-import com.taghavi.cleanarchitecturenoteapppractice.feature_not.domain.model.Note
+import com.taghavi.cleanarchitecturenoteapppractice.feature_note.data.data_source.NoteDao
+import com.taghavi.cleanarchitecturenoteapppractice.feature_note.domain.model.Note
 import kotlinx.coroutines.flow.Flow
 
 class NoteRepositoryImpl(private val dao: NoteDao) : NoteRepository {

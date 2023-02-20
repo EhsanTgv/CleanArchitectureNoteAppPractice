@@ -1,4 +1,4 @@
-package com.taghavi.cleanarchitecturenoteapppractice.feature_not.domain.util
+package com.taghavi.cleanarchitecturenoteapppractice.feature_note.domain.util
 
 sealed class OrderType {
     object Ascending: OrderType()
