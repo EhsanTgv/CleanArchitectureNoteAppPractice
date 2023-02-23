@@ -3,4 +3,5 @@ package com.taghavi.cleanarchitecturenoteapppractice.feature_note.domain.use_cas
 data class NoteUseCases(
     val getNotes: GetNotes,
     val deleteNote: DeleteNote,
+    val addNote: AddNote,
 )
