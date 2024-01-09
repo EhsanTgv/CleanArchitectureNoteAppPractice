@@ -78,11 +78,11 @@ dependencies {
     kapt "com.google.dagger:hilt-compiler:2.46"
 
     // Room
-    implementation "androidx.room:room-runtime:2.5.1"
-    kapt "androidx.room:room-compiler:2.5.1"
+    implementation "androidx.room:room-runtime:2.6.1"
+    kapt "androidx.room:room-compiler:2.6.1"
 
     // Kotlin Extensions and Coroutines support for Room
-    implementation "androidx.room:room-ktx:2.5.1"
+    implementation "androidx.room:room-ktx:2.6.1"
 
     // Local unit tests
     testImplementation "androidx.test:core:1.4.0"
